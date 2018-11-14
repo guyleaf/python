@@ -1,0 +1,6 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+e = int(input())
+print('%d' %(a*0.06+b*0.108+c*0.101+d*1.128+e*1.483))
