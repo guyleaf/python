@@ -1,8 +1,8 @@
-def bmi(weight, height):
+def bmi(weight, height): #BMI計算
     BMI = weight / (height*height)
     return BMI
 	
-def main():
+def main(): #main
     height = float(input())
     weight = float(input())
     BMI = bmi(weight, height)
