@@ -67,8 +67,8 @@ def compute(hr, min, i): #換算成分鐘數
     return sum
 
 def fee(space): #計算費用
-    quotient = space // 30
-    remainder = space % 30
+    quotient = space // 30 #取半分鐘
+    remainder = space % 30 #取分鐘
     if(quotient<4 or (quotient==4 and remainder==0)):
         sum = quotient*30
     elif(quotient<8 or (quotient==8 and remainder==0)):
